@@ -1,6 +1,3 @@
-from django.apps import AppConfig
+from django.contrib import admin
 
-
-class ThingsConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'things'
+# Register your models here.
